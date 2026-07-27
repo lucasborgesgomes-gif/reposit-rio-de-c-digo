@@ -1,1 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página educativa sobre direitos digitais e segurança na internet.">
+    <title>Direitos Digitais</title>
+    <!-- Ligação com o arquivo CSS -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Cabeçalho principal -->
+    <header class="cabecalho-principal">
+        <div class="conteudo-cabecalho">
+            <p class="identificacao-projeto">
+                Guia de Segurança Digital
+            </p>
+            <h1>Direitos Digitais</h1>
+            <p class="subtitulo">
+                Conheça seus direitos e aprenda a navegar com mais segurança.
+            </p>
+            <a href="#direitos" class="botao-destaque">
+                Conhecer meus direitos
+            </a>
+        </div>
+    </header>
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Introdução -->
+        <section class="secao introducao" id="inicio">
+            <div class="limite-conteudo">
+                <h2>O que são direitos digitais?</h2>
+                <p>
+                    Direitos digitais são os direitos que as pessoas possuem
+                    ao utilizar a internet, aplicativos, redes sociais,
+                    serviços bancários, lojas virtuais e outras tecnologias.
+                </p>
+                <p>
+                    Esses direitos envolvem privacidade, proteção dos dados
+                    pessoais, liberdade de expressão, segurança digital e
+                    proteção do consumidor.
+                </p>
+            </div>
+        </section>
+        <!-- Direitos digitais -->
+        <section class="secao secao-clara" id="direitos">
+            <div class="limite-conteudo">
+                <h2>Principais direitos na internet</h2>
+                <div class="grade-cartoes">
+                    <article class="cartao">
+                        <div class="icone-cartao" aria-hidden="true">
+                          🔒
+                        </div>
+                        <h3>Privacidade</h3>
+                        <p>
+                            Conversas, fotografias e informações pessoais não
+                            devem ser divulgadas sem autorização.
+                        </p>
+                    </article>
+                    <article class="cartao">
+                        <div class="icone-cartao" aria-hidden="true">
+                            🛡️
+                        </div>
+                        <h3>Proteção de dados</h3>
+                        <p>
+                            Empresas devem explicar como coletam, armazenam e
+                            utilizam os dados de seus usuários.
+                        </p>
+                    </article>
+                    <article class="cartao">
+                        <div class="icone-cartao" aria-hidden="true">
+                            💬
+                        </div>
+                        <h3>Liberdade de expressão</h3>
+                        <p>
+                            As pessoas podem se manifestar, mas devem respeitar
+                            os direitos e a dignidade de outras pessoas.
+                        </p>
+                    </article>
+                    <article class="cartao">
+                        <div class="icone-cartao" aria-hidden="true">
+                            🛒
+                        </div>
+                        <h3>Direitos do consumidor</h3>
+                        <p>
+                            Compras realizadas pela internet também são
+                            protegidas pelo Código de Defesa do Consumidor.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Leis -->
+        <section class="secao secao-leis">
+            <div class="limite-conteudo">
+                <h2>Leis relacionadas ao ambiente digital</h2>
+                <div class="lista-leis">
+                    <article class="item-lei">
+                        <h3>LGPD</h3>
+                        <p>
+                            A Lei Geral de Proteção de Dados estabelece regras
+                            para a coleta, o tratamento, o armazenamento e o
+                            compartilhamento de dados pessoais.
+                        </p>
+                    </article>
+                    <article class="item-lei">
+                        <h3>Marco Civil da Internet</h3>
+                        <p>
+                            Estabelece direitos e deveres relacionados ao uso
+                            da internet no Brasil, incluindo privacidade,
+                            liberdade de expressão e segurança.
+                        </p>
+                    </article>
+                    <article class="item-lei">
+                        <h3>Código de Defesa do Consumidor</h3>
+                        <p>
+                            Protege consumidores em compras digitais contra
+                            cobranças indevidas, informações enganosas e
+                            produtos não entregues.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Exemplo de golpe -->
+        <section class="secao secao-alerta">
+            <div class="limite-conteudo">
+                <h2>Você reconheceria uma tentativa de golpe?</h2>
+                <div class="mensagem-suspeita">
+                    <div class="cabecalho-mensagem">
+                        <span aria-hidden="true">📱</span>
+                        <strong>Mensagem recebida</strong>
+                    </div>
+                    <p>
+                        Sua compra de R$ 53.000,00 foi aprovada. Caso não
+                        reconheça essa operação, clique imediatamente no link
+                        abaixo para cancelar.
+                    </p>
+                    <p class="link-falso">
+                        http://cancelamento-premiado.exemplo
+                    </p>
+                </div>
+                <button type="button" class="botao-acao" id="botao-analisar" >
+                    Analisar a mensagem
+                </button>
+                <div
+                    class="resultado-analise"
+                    id="resultado-analise"
+                    aria-live="polite"
+                ></div>
+            </div>
+        </section>
+        <!-- Dicas -->
+        <section class="secao secao-clara">
+            <div class="limite-conteudo">
+                <h2>Como se proteger?</h2>
+                <ul class="lista-seguranca">
+                    <li>Não clique em links recebidos de desconhecidos.</li>
+                    <li> Confira o endereço do site antes de informar seus dados. </li>
+                    <li> Nunca compartilhe senhas ou códigos de confirmação. </li>
+                    <li> Desconfie de mensagens que exigem uma ação imediata.</li>
+                    <li>  Acesse diretamente o aplicativo oficial da empresa.</li>
+                </ul>
+                <button type="button"   class="botao-acao" id="botao-orientacao" >
+                    Mostrar orientação importante
+                </button>
+                <p class="orientacao" id="orientacao" aria-live="polite"></p>
+            </div>
+        </section>
+        <!-- Botão que abre o modal -->
+        <section class="secao secao-ajuda">
+            <div class="limite-conteudo">
+                <h2>Precisa de ajuda?</h2>
+                <p>
+                    Caso tenha recebido uma mensagem suspeita, converse com
+                    uma pessoa responsável antes de clicar em qualquer link.
+                </p>
+                <button type="button" class="botao-emergencia" id="botao-abrir-modal">
+                    Abrir orientações
+                </button>
+            </div>
+        </section>
+    </main>
+    <!-- Janela modal -->
+    <div class="fundo-modal" id="fundo-modal" aria-hidden="true" >
+        <section class="modal" role="dialog" aria-modal="true" aria-labelledby="titulo-modal" >
+            <button  type="button"  class="botao-fechar"  id="botao-fechar-modal"
+                aria-label="Fechar janela" >
+                ×
+            </button>
+            <h2 id="titulo-modal">
+                O que fazer diante de uma mensagem suspeita?
+            </h2>
+            <ol>
+                <li>Não clique no link.</li>
+                <li>Não responda à mensagem.</li>
+                <li>Não forneça dados pessoais.</li>
+                <li>Abra o aplicativo oficial da empresa.</li>
+                <li>Converse com uma pessoa responsável.</li>
+                <li>Bloqueie e denuncie o remetente.</li>
+            </ol>
+            <button type="button" class="botao-acao" id="botao-entendi" >
+                Entendi
+            </button>
+        </section>
+    </div>
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p>
+            Projeto educativo — Direitos Digitais e Segurança na Internet
+        </p>
+        <p id="ano-atual"></p>
+    </footer>
+    <!-- Ligação com o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
 
